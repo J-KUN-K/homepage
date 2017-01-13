@@ -30,7 +30,10 @@
 		<link rel="stylesheet" href="/customer/notice.css" />
 
 		
-			<!-- 푸터 -->	
+		<!-- 계정 -->
+		<link rel="stylesheet" href="/account/login.css" />
+
+		<!-- 푸터 -->	
 		<link rel="stylesheet" href="/include/Footer.css" />
 
 		<!-- custom -->

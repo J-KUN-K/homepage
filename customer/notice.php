@@ -6,20 +6,26 @@
 		<div class="noticeListTitle">공지사항</div>
 		<div class="noticeListContent">
 			<div class="noticeListTable" >
-					<div class="noticeLists">
-						<div class="notice">공지</div>
-						<div class="noticeContentTitle" style="font-weight:bold">투자자 변동 사항 안내</div>
-						<div class="noticeContentDate">16.12.27</div>
-					</div>
-					<div class="noticeLists">
-						<div class="noticeContentNumber">11</div>
-						<div class="noticeContentTitle">최종 심사 승인</div>
-						<div class="noticeContentDate">16.12.27</div>
-					</div>
-
-				
+				<div class="noticeLists">
+					<div class="notice">공지</div>
+					<div class="noticeContentTitle" style="font-weight:bold">투자자 변동 사항 안내</div>
+					<div class="noticeContentDate">16.12.27</div>
+				</div>
 			</div>
-
+			<div class="noticeListTable" >
+				<div class="noticeLists">
+					<div class="noticeContentNumber">11</div>
+					<div class="noticeContentTitle">최종 심사 승인</div>
+					<div class="noticeContentDate">16.12.27</div>
+				</div>
+			</div>
+			<div class="noticeListTable" >
+				<div class="noticeLists">
+					<div class="noticeContentNumber">10</div>
+					<div class="noticeContentTitle">[보도자료] 30CUT-농협은행, 은행 제휴 P2P 사업모델에 대한 금융당국 승인 완료</div>
+					<div class="noticeContentDate">16.12.27</div>
+				</div>
+			</div>
   	</div>
 
 		<div class="noticeBtnLayout">
