@@ -1,0 +1,343 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.contactLayout {
+  padding-top: 70px;
+  margin-top: 57px;
+  width: 100%;
+  height: 1411px;
+  text-align: center;
+  background-color: #ffffff;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.contactMainLayout {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1091px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.contactMain {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 1200px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.contactMainTitle  {
+  margin-bottom: 40px;
+  height: 45px;
+  margin-right: auto;
+  margin-left: auto;
+  width : 200px;
+  font-size: 28px;
+  line-height: 2.75;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contactTitlebar {
+  width : 46px;
+  height: 4px;
+  margin : 0px auto 50px auto;
+  background: url('img/title_bar.png') no-repeat center;
+  background-size: cover;
+}
+.contactContent {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55px;
+  width: 96%;
+  height: 500px;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.contactContentAddr {
+  margin-left: 2px;
+  width: 556px;
+  height: 65px;
+  border-top:2px solid #555;
+  float : left;
+  text-align: left;
+}
+
+.contactTitle  {
+  margin-top : 26px;
+  margin-bottom: 32px;
+  font-size: 23px;
+  line-height: 1;
+  letter-spacing: -0.6px;
+  text-align: left;
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contactSubTitle {
+  margin-top: 27px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #333333;
+}
+
+.contactAddr {
+  height: 18px;
+  margin-top: 18PX;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #333333;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.contactEngAddr {
+  margin-top: 6px;
+  height: 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: -0.3px;
+  text-align: left;
+  color: #8b8b8b;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.contactContentCS {
+  margin-left: 59px;
+  width: 440px;
+  height: 500px;
+  border-top:2px solid #555;
+  float : left;
+}
+
+.CSDetail {
+  height: 40px;
+  display: -webkit-flex;
+  display: flex;
+
+}
+
+.contactCSSubTitle {
+  width: 70px;
+  margin-bottom: 24px;
+  height: 13px;
+  font-size: 16px;
+  line-height: 0.32;
+  letter-spacing: -0.4px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: #333333;
+  float : left;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contactCSDetail {
+  margin-left: 30px;
+  margin-bottom: 24px;
+  height: 16px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.32;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #333333;
+  float : left;
+}
+
+.contactMap {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 95%;
+  height: 500px;
+}
+
+
+
+@media (min-width:768px) and (max-width: 1024px){
+  .contactLayout {
+  width: 100%;
+}
+
+.contactMainLayout {
+  width: 100%;
+}
+.contactMain {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+  height: 1200px;
+  background-color: #ffffff;
+}
+
+.contactMainTitle  {
+  margin-bottom: 20px;
+  width : 200px;
+  font-size: 24px;
+}
+
+.contactTitlebar {
+  margin : 0px auto 30px auto;
+}
+
+.contactContent {
+  display: inline-block;
+  margin-top: 55px;
+  width: 80%;
+  height: 600px;
+}
+
+
+.contactContentAddr {
+  margin-left: 0px;
+  width: 100%;
+  height: 330px;
+  padding-left: 10px;
+  border-top:2px solid #555;
+  float : none;
+  text-align: left;
+}
+
+.contactContentCS {
+  float : none;
+  margin-left: 0px;
+  padding-left: 10px;
+  width: 100%;
+  height: 330px;
+  border-top:2px solid #555;
+  float : none;
+}
+
+.contactMap {
+  width: 85%;
+  height: 400px;
+}
+
+
+}
+
+@media only screen and (max-device-width: 768px){
+.contactLayout {
+    height: 1111px;
+  padding-top:70px;
+  padding-bottom: 0px;
+}
+.contactMainLayout {
+  width: 100%;
+}
+.contactMainTitle  {
+  width:95%;
+  margin-bottom: 22px;
+  font-size : 26px;
+}
+.contactTitlebar {
+  margin : 0px auto 30px auto;
+}
+.contactMain {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 1200px;
+  background-color: #ffffff;
+}
+
+
+.contactContent {
+  width: 90%;
+  display: inline-block;
+  margin-top : 30px;
+}
+
+
+.contactContentAddr {
+  margin-left: 0px;
+  width: 100%;
+  height: auto;
+  border-top:none;
+  float : none;
+}
+
+.contactTitle  {
+  margin-top : 15px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 0.8;
+  letter-spacing: -0.6px;
+  text-align: left;
+  color: #333333;
+}
+
+.contactSubTitle {
+  margin-top: 27px;
+  font-size: 14px;
+  width:400px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #333333;
+}
+
+.contactAddr {
+  height: auto;
+  margin-top: 18px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.contactEngAddr {
+  padding-top:0px;
+  width: 100%;
+  height: auto;
+  font-size: 12px;
+}
+
+
+.contactContentCS {
+  border-top:none;
+  margin-top: 50px;
+  margin-left: 0px;
+  width: 100%;
+  height: 400px;
+  float : none;
+}
+
+.contactMap {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 300px;
+}
+
+
+.contactCSSubTitle {
+  height: 13px;
+  font-size: 14px;
+}
+
+.contactCSDetail {
+  height: 14px;
+  font-size: 14px;
+}
+
+.CSDetail {
+  height: 35px;
+}
+
+
+}

@@ -1,0 +1,185 @@
+a:link {
+  text-decoration : none;
+}
+
+.mediaListLayout {
+  padding-top: 70px;
+  margin-top: 57px;
+  padding-bottom : 100px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: #f9f9f9;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.mediaListMain {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  background-color: #ffffff;
+  border: solid 1px #dedede;
+  text-align: center;
+}
+
+.medaiListTitle {
+  font-size: 28px;
+  line-height: 28px;
+  margin-top: 50px;
+  letter-spacing: -0.7px;
+  color: #333333;
+  margin-bottom: 46px;
+}
+
+.mediaListContent {
+  margin-left: auto;
+  margin-right: auto;
+  width: 646px;
+  border-top:2px solid #555;
+  height: auto;
+}
+
+.mediaListTable {
+  text-align: left;
+  width: 646px;
+  border-bottom:1px solid #dedede;
+}
+
+.mediaLists {
+  text-align: left;
+  width: 646px;
+  height: 66px;
+  border-bottom: 1px solid #dedede;
+}
+
+.mediaContentNumber {
+  width: 17px;
+  height: 66px;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-left: 11px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 4.13;
+  text-align: left;
+  color: #164f91;
+  float : left;
+}
+
+
+.mediaContentTitle {
+  width: 450px;
+  height: 40px;
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-top: 16px;
+  margin-left: 3%;
+  font-size: 18px;
+  line-height: 1.9;
+  padding-bottom: 10px;
+  text-align: left;
+  color: #333333;
+  float : left;
+}
+
+
+.mediaContentDate {
+  height: 66px;
+  margin-right: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 15px;
+  line-height: 4.4;
+  text-align: left;
+  color: #9b9b9b;
+  float: right;
+}
+
+.mediaBtnLayout {
+  width: 100%;
+  height: 100px;
+  padding-bottom : 52px;
+}
+
+.mediaMoreBtn {
+  margin-top: 48px;
+  width: 646px;
+  height: 51px;
+  border:1px solid #dedede;
+  background-color: #ffffff;
+  font-size: 18px;
+  line-height: 2.39;
+  color: #5f5f5f;
+}
+
+@media (max-width: 768px){
+
+.mediaListLayout {
+  padding-top:32px;
+}
+
+.mediaListMain {
+  width: 95%;
+}
+
+.medaiListTitle {
+  font-size: 22px;
+  line-height: 11px;
+  margin-top: 48px;
+  height: 20px;
+}
+
+
+.mediaListContent {
+  margin-top:0px;
+  height: 850px;
+  width: 95%
+}
+
+
+.mediaListTable {
+  width: 100%;
+}
+.mediaLists {
+  width: 100%;
+}
+
+.mediaContentNumber {
+  text-align: left;
+  font-size: 12px;
+  margin-left: 18px;
+  line-height: 5;
+  width: 20px;
+}
+
+
+.mediaContentTitle {
+  text-align: left;
+  line-height: 2.5;
+  width: 70%;
+  font-size: 12px;
+  padding-top: 16px;
+}
+
+
+.mediaContentDate {
+  text-align: right;
+  width: 60px;
+  margin-right: 14px;
+  line-height: 5;
+  font-size: 12px;
+  letter-spacing: -0.5px;
+}
+
+
+.mediaBtnLayout {
+  width: 100%;
+  height: 100px;
+}
+
+.mediaMoreBtn {
+  margin-top: 55px;
+  width: 90%;
+  height: 42px;
+  font-size: 13px;
+}
+
+
+}
