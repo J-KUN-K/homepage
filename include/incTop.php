@@ -31,7 +31,10 @@
 
 		
 		<!-- 계정 -->
+		<link rel="stylesheet" href="/account/account_input.css" />
 		<link rel="stylesheet" href="/account/login.css" />
+		<link rel="stylesheet" href="/account/signup.css" />
+		<link rel="stylesheet" href="/account/password.css" />
 
 		<!-- 푸터 -->	
 		<link rel="stylesheet" href="/include/Footer.css" />
