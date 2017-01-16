@@ -1,6 +1,8 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 .faqListLayout {
   padding-top: 70px;
-  margin-top: 140px;
+  margin-top: 57px;
   padding-bottom : 100px;
   width: 100%;
   height: auto;
@@ -51,33 +53,29 @@
   padding-bottom: 5px;
 
 }
-
 .faqTab:active{
   color: #164f91;
-  font-size : 17px;
   padding-bottom: 5px;
   border-bottom: 2px solid #164f91;
 }
+
 
 .faqTabActive{
-  color: #164f91;
-  padding-bottom: 5px;
-  width : 36px;
-  font-size: 17px;
-  border-bottom: 2px solid #164f91;
+  color: #f2834a;
+  border-bottom: 2px solid #f2834a;
 }
-
 .faqTabSpace{
   width: 47px;
 }
-
 .faqNo{
   float: left;
   margin-left: 15px;
   width: 17px;
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
   line-height: 4.13;
   text-align: left;
   color: #bababa;
@@ -97,7 +95,6 @@
   text-align: left;
   color: #333333;
 }
-
 .faqDown{
   margin-right: 10px;
   margin-top: 28px;
@@ -107,7 +104,6 @@
   background: url('img/ic_down.png') no-repeat center;
   background-size: cover;
 }
-
 .faqUp{
   margin-right: 10px;
   margin-top: 28px;
@@ -117,6 +113,7 @@
   background: url('img/ic_up.png') no-repeat center;
   background-size: cover;
 }
+
 
 .faqListContent {
   height: auto;
@@ -129,17 +126,15 @@
 
 .faqListTable {
   width: 646px;
+
   border-bottom:1px solid #dedede;
 }
-
 .faqTab:focus{
   outline: none;
 }
-
 .faqTable:focus{
   outline: none;
 }
-
 .faqTable {
   width: 646px;
   height: 65px;
@@ -148,7 +143,6 @@
 .faqContent{
   line-height: 1.7;
   margin-left: 50px;
-  margin-right: 0px;
   width: 87%;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 15px;
@@ -160,7 +154,7 @@
   padding-bottom: 27px;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-device-width: 768px) {
   .faqListLayout {
     padding-top:62px;
   }
