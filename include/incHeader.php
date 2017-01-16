@@ -19,7 +19,7 @@
                                         <div class="navbar-header">
                                             <!-- .logo start -->
                                             <div class="logo">
-                                                <a href="/index.php">
+                                                <a href="/index.html">
                                                     <img src="/img/main/logo_white.png" alt="BookMarks Transportation and Logistics HTML Template">
                                                 </a>
                                             </div><!-- logo end -->
@@ -38,15 +38,15 @@
                                                 </li>
 												-->
                                                 <li class="dropdown col-md-2">
-                                                    <a href="/invest/invest.php">투자</a>                                          
+                                                    <a href="/loan/loanInfo.php">투자</a>
                                                 </li>
                                                 <li class="dropdown col-md-2">
-                                                    <a href="/loan/loan.html">대출</a>                                          
+                                                    <a href="/loan/loan.html">대출</a>        
                                                 </li>
 
-												<li class="dropdown col-md-2"><a href="/#" data-toggle="dropdown" class="dropdown-toggle">회사소개</a>
+												<li class="dropdown col-md-2"><a href="/company/companyInfo.html" data-toggle="dropdown" class="dropdown-toggle">회사소개</a>
                                                     <ul class="dropdown-menu">
-                                                        <li><a href="/aboutUs/30Cut.php">BEYOND FUND</a></li>
+                                                        <li><a href="/company/companyInfo.html">BEYOND FUND</a></li>
                                                         <li><a href="/media/media.html">언론보도</a></li>
                                                     </ul>
                                                 </li>
@@ -60,11 +60,11 @@
                                                 </li>
 
 												<li class="dropdown col-md-2">
-                                                    <a href="/login/login.php" style="letter-spacing:0px;border:2px solid #fff;padding:12px 25px 12px 11px">회원가입</a>                                          
+                                                    <a href="/account/signup.html" style="letter-spacing:0px;border:2px solid #fff;padding:12px 25px 12px 11px">회원가입</a>                                          
                                                 </li>
 		
 												<li class="dropdown col-md-2">
-                                                    <a href="/join/enterEmail.php" style="letter-spacing:0px;border:2px solid #fff;padding:12px 10px 12px 11px">로그인</a>
+                                                    <a href="/account/login.html" style="letter-spacing:0px;border:2px solid #fff;padding:12px 10px 12px 11px">로그인</a>
                                                 </li>
                                               
 

@@ -5,19 +5,20 @@
 	<div class="mediaListMain">
 		<div class="medaiListTitle">언론보도</div>
 
-		<div class="mediaListContent">
+		<div class="mediaListContent" id="mediaListContent">
 			<div class="mediaListTable">
-			
-					<div class="mediaLists">
-						<div class="mediaContentNumber">12</div>
-						<div class="mediaContentTitle"><bold>[한국경제] "P2P대출로 서민에게 희망 줄래요"</bold></div>
-						<div class="mediaContentDate">16.12.27</div>
-					</div>
 					<div class="mediaLists">
 						<div class="mediaContentNumber">12</div>
 						<div class="mediaContentTitle"><bold>[한국경제] "P2P대출로 서민에게 희망 줄래요"</bold></div>
 						<div class="mediaContentDate">16.12.27</div>
 					</div>					
+			</div>
+			<div class="mediaListTable">
+					<div class="mediaLists">
+						<div class="mediaContentNumber">12</div>
+						<div class="mediaContentTitle"><bold>[보도자료] 30CUT-농협은행, 은행 제휴 P2P 사업모델에 대한 금융당국 승인 완료</bold></div>
+						<div class="mediaContentDate">16.12.27</div>
+					</div>	 
 			</div>
 		</div>
 
@@ -26,11 +27,45 @@
 		</div>
 	</div>
 </div>
+
+ <!--  <script>
+
+  $(document).ready(function() {
+  	var flag = false;
+
+  	if (flag == false) {
+	  	$.ajax({
+	  		type : "get",
+	  		url : "http://58.229.204.28:8080/admin/media",
+	  		dataType : "json",
+	  		success : function(data) {
+	  			flag = true;
+	  			console.log(data);
+	  			createList(data);
+	  		}
+	  	});
+  	}
+
+  	function createList(data) {
+  		var len = data.length;
+		var mlist = document.getElementById("mediaListContent");  		
+  		console.log("길이 : " + len);
+
+  		for (var i = 0; i < len; i++) {
+  			var txt = 
+  					"<div class='mediaListTable'>"
+	  				+	"<div class='mediaLists'>" 
+						+ "<div class='mediaContentNumber'>" + data[i].id + "</div>"
+						+ "<div class='mediaContentTitle'><bold>" + data[i].title + "</bold></div>"
+						+ "<div class='mediaContentDate'>" + data[i].today + "</div></div></div>";
+				
+				mlist.innerHTML += txt;
+
+  		}
+  	}
+
+  });
+
+  </script>  -->
 <?php include('../include/Footer.html'); ?>
-<script src="../js/jquery-2.1.4.min.js"></script><!-- jQuery library -->
-<script src="../js/bootstrap.min.js"></script><!-- .bootstrap script -->
-<script src="../js/jquery.scripts.min.js"></script><!-- modernizr, retina, stellar for parallax -->  
-<script src="../masterslider/masterslider.min.js"></script><!-- Master slider main js -->
-<script src="../masterslider/jquery.easing.min.js"></script><!-- Master slider easing js -->
-<script src="../js/jquery.dlmenu.min.js"></script><!-- for responsive menu -->
-<script src="../js/include.js"></script><!-- custom js functions -->
+

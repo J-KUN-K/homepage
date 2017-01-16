@@ -1,10 +1,6 @@
-a:link {
-  text-decoration : none;
-}
-
 .mediaListLayout {
   padding-top: 70px;
-  margin-top: 57px;
+  margin-top: 140px;
   padding-bottom : 100px;
   width: 100%;
   height: auto;
@@ -20,6 +16,7 @@ a:link {
   background-color: #ffffff;
   border: solid 1px #dedede;
   text-align: center;
+  padding-bottom: 25px;
 }
 
 .medaiListTitle {
@@ -42,34 +39,32 @@ a:link {
 .mediaListTable {
   text-align: left;
   width: 646px;
+  height: auto;
+  display: -webkit-flex;
+  display: flex;
   border-bottom:1px solid #dedede;
 }
 
 .mediaLists {
   text-align: left;
   width: 646px;
-  height: 66px;
-  border-bottom: 1px solid #dedede;
+  height: auto;
 }
 
 .mediaContentNumber {
-  width: 17px;
-  height: 66px;
-  font-family: 'Noto Sans KR', sans-serif;
+  width: 35px;
   margin-left: 11px;
   font-size: 16px;
   font-weight: bold;
   line-height: 4.13;
   text-align: left;
   color: #164f91;
-  float : left;
+  float: left;
 }
 
 
 .mediaContentTitle {
   width: 450px;
-  height: 40px;
-  font-family: 'Noto Sans KR', sans-serif;
   padding-top: 16px;
   margin-left: 3%;
   font-size: 18px;
@@ -77,14 +72,12 @@ a:link {
   padding-bottom: 10px;
   text-align: left;
   color: #333333;
-  float : left;
+  float: left;
 }
 
 
 .mediaContentDate {
-  height: 66px;
-  margin-right: 10px;
-  font-family: 'Noto Sans KR', sans-serif;
+  margin-right: 0px;
   font-size: 15px;
   line-height: 4.4;
   text-align: left;
@@ -120,40 +113,40 @@ a:link {
 }
 
 .medaiListTitle {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 11px;
-  margin-top: 48px;
-  height: 20px;
+  margin-top: 42px;
+  height: 8px;
 }
-
 
 .mediaListContent {
   margin-top:0px;
-  height: 850px;
   width: 95%
 }
 
 
 .mediaListTable {
   width: 100%;
+  height: auto;
 }
 .mediaLists {
   width: 100%;
+  height: auto;
 }
 
 .mediaContentNumber {
   text-align: left;
   font-size: 12px;
-  margin-left: 18px;
-  line-height: 5;
+  margin-left: 2%;
+  line-height: 4.5;
   width: 20px;
 }
 
 
 .mediaContentTitle {
   text-align: left;
-  line-height: 2.5;
-  width: 70%;
+  line-height: 1.87;
+  width: 66%;
   font-size: 12px;
   padding-top: 16px;
 }
@@ -161,9 +154,7 @@ a:link {
 
 .mediaContentDate {
   text-align: right;
-  width: 60px;
-  margin-right: 14px;
-  line-height: 5;
+  margin-right: 8px;
   font-size: 12px;
   letter-spacing: -0.5px;
 }
@@ -178,7 +169,7 @@ a:link {
   margin-top: 55px;
   width: 90%;
   height: 42px;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 
