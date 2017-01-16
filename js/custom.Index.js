@@ -176,25 +176,11 @@ $('.bxslider').bxSlider({
 		});
 
 		(function () {
-			var cntStatics = 0;
-			var cntGraph = 0;
+			var cnt = 0;
 			var scrollPercent;
-		    var arr1 = ['55%', '77%', '95%'];
-			var div = $(".graph");
-
 			$(window).scroll(function(){
 			scrollPercent = ($(window).scrollTop()/ ($(document).height()-$(window).height())) * 100;
-			if(scrollPercent > 7 && cntGraph === 0){		
-				$(".graph").each(function (index, item) {
-
-				$(item).animate({
-				width : arr1[index] 
-					}, 4000); 
-				});
-				cntGraph++;
-			}
-
-			if(scrollPercent > 25 && cntStatics === 0){
+			if(scrollPercent > 30 && cnt === 0){
 				(function($) {
 					$.fn.countUp = function(options) {
 					var start_num = Number($(this).text());
@@ -303,7 +289,7 @@ $('.bxslider').bxSlider({
 				};
 				$('.text5').countUp(param5);
 
-				cntStatics++;
+				cnt++;
 				}
 			});
 		}());
