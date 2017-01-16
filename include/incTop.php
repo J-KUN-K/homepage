@@ -29,8 +29,13 @@
 		<link rel="stylesheet" href="/customer/contactUs.css" />	
 		<link rel="stylesheet" href="/customer/faq.css" />
 		<link rel="stylesheet" href="/customer/notice.css" />
+<<<<<<< HEAD
 			<!-- 회사 -->
 		<link href="/company/companyInfo.html"/>
+=======
+
+		
+>>>>>>> parent of 45b6240... Revert "homepy ver2"
 			<!-- 푸터 -->	
 		<link rel="stylesheet" href="/include/Footer.css" />
 
