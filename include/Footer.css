@@ -59,10 +59,10 @@ a:link {
   color: #ededed;
 }
 .blogGroup{
-  margin-top: 38px;
+  margin-top: 44px;
   margin-left: auto;
   margin-right: auto;
-  width: 226px;
+  width: 200px;
   display: -webkit-flex;
   display: flex;
   font-weight: bold;
@@ -129,7 +129,7 @@ a:link {
   color: #8f8f8f;
 }
 .facebookImg:hover{
-  background: url('/img/include/facebook_white.png') no-repeat center;
+  background: url('img/facebook_white.png') no-repeat center;
   color: #fff;
 }
 
@@ -184,7 +184,7 @@ a:link {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  width: 350px;
+  width: 272px;
   height: 15px;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 13px;
@@ -240,7 +240,7 @@ a:link {
   .company{
     font-size: 9px;
     height: 92px;
-    width: 315px;
+    width: 300px;
     letter-spacing: 0.6px;
   }
   .personalGroup{
@@ -263,29 +263,9 @@ a:link {
     width: 0px;
   }
   .footerContent{
-    height: 655px;
+    height: 580px;
     width: 100%;
-    background-color: #565656;
+    background-color: #33343c;
     text-align: center;
-  }
-.copy_ms{
-  margin-top: 13px;
-  margin-bottom: 15px;
-  font-size: 9px;
-  font-weight: 300;
-  width:300px;
-}
-  .fundGuide {
-    width: 315px;
-    height: 80px;
-    margin : 35px auto 0px auto;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 9px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.43;
-    text-align: center;
-    color: #9c9c9c;  
   }
 }
