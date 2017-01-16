@@ -1,0 +1,291 @@
+a:link {
+  text-decoration : none;
+}
+.uplayout{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+}
+.footerUp{
+  left: 0;
+  right: 0;
+  margin: 0 auto ;
+  margin-top: -30px;
+  position: absolute;
+  width: 70px;
+  background-color: transparent;
+  height: 30px;
+  text-align: center;
+  background: url('/img/include/up.png') no-repeat center;
+}
+.footerUp:hover{
+  background: url('/img/include/up_white.png') no-repeat center;
+}
+.footerUp:focus {
+  outline: none;
+}
+.footerContent{
+  height: 670px;
+  width: 100%;
+  background-color: #565656;
+  text-align: center;
+}
+
+.personalGroup{
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 205px;
+  display: -webkit-flex;
+  display: flex;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  text-align: left;
+  color: #9c9c9c;
+}
+.personalGroupSpace{
+  width: 25px;
+}
+.personalGroup > a > span{
+  color: #9c9c9c;
+}
+.personalGroup > a > span:hover{
+  color: #ededed;
+}
+.blogGroup{
+  margin-top: 38px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 226px;
+  display: -webkit-flex;
+  display: flex;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  text-align: left;
+}
+.blogBtnGroup{
+  height: 50px;
+  width: 70px;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #8e8d8d;
+}
+
+.cutImg{
+  margin-top: -25px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: 75px;
+  text-align: center;
+  display: table;
+  color: #8f8f8f;
+  background: url('/img/include/30cut.png') no-repeat center;
+}
+.blogSpan{
+  margin-top: 58px;
+}
+.facebookSpan{
+    margin-top: 58px;
+}
+.brunchSpan{
+  margin-top: 58px;
+}
+
+.cutImg:hover{
+  background: url('/img/include/30cut_white.png') no-repeat center;
+  color: #fff;
+}
+
+.cutImg:hover{
+    color: #fff;
+}
+.facebookSpan:hover{
+  color: #fff;
+}
+.brunchSpan:hover{
+  color: #fff;
+}
+
+.facebookImg{
+  margin-top: -25px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: 75px;
+  text-align: center;
+  display: table;
+  background: url('/img/include/facebook.png') no-repeat center;
+  color: #8f8f8f;
+}
+.facebookImg:hover{
+  background: url('/img/include/facebook_white.png') no-repeat center;
+  color: #fff;
+}
+
+.brunchImg{
+  margin-top: -25px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: 75px;
+  text-align: center;
+  display: table;
+  background: url('/img/include/brunch.png') no-repeat center;
+  color: #8f8f8f;
+}
+.brunchImg:hover{
+  background: url('/img/include/brunch_white.png') no-repeat center;
+  color: #fff
+}
+
+.tel{
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 290px;
+  height: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: 2.2px;
+  text-align: left;
+  color: #e7e7e7;
+}
+.company{
+  margin-top: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 92px;
+  width: 490px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  color: #9c9c9c;
+}
+.copy_ms{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 350px;
+  height: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.85;
+  text-align: center;
+  color: #8e8d8d;
+}
+.bankP2P{
+  margin-top: 38px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 390px;
+  display: -webkit-flex;
+  display: flex;
+}
+.p2pSpace{
+  width: 18px;
+}
+
+.footerLogo{
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  height: 29px;
+}
+.footerLogoSpace{
+  height: 40px;
+}
+
+.fundGuide {
+  width: 600px;
+  height: 80px;
+  margin : 35px auto 0px auto;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  text-align: center;
+  color: #9c9c9c;  
+}
+
+@media (max-width: 768px){
+  .tel{
+    letter-spacing: 1.6px;
+    width: 260px;
+    font-size: 12px;
+  }
+  .company{
+    font-size: 9px;
+    height: 92px;
+    width: 315px;
+    letter-spacing: 0.6px;
+  }
+  .personalGroup{
+    padding-left: 40px;
+    font-size: 13px;
+  }
+  .copy{
+    font-size: 11px;
+  }
+
+  .bankP2P{
+    margin-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px;
+    display: block;
+  }
+  .p2pSpace{
+    height: 10px;
+    width: 0px;
+  }
+  .footerContent{
+    height: 655px;
+    width: 100%;
+    background-color: #565656;
+    text-align: center;
+  }
+.copy_ms{
+  margin-top: 13px;
+  margin-bottom: 15px;
+  font-size: 9px;
+  font-weight: 300;
+  width:300px;
+}
+  .fundGuide {
+    width: 315px;
+    height: 80px;
+    margin : 35px auto 0px auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 9px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    text-align: center;
+    color: #9c9c9c;  
+  }
+}

@@ -1,0 +1,336 @@
+@import url( "https://fonts.googleapis.com/earlyaccess/notosanskr.css" );
+
+.companyTitle1 {
+  height: 40px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.5;
+  color: #2f2f2f;
+  float: left;
+}
+
+.companyInfoDetail {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #757575;
+}
+
+.companyLayoutTitle {
+  margin-bottom: 40px;
+  height: 45px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 28px;
+  line-height: 2.75;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.companyTitlebar {
+  width : 46px;
+  height: 4px;
+  margin : 0px auto 50px auto;
+  background: url('img/title_bar.png') no-repeat center;
+  background-size: cover;
+}
+
+.companyDetailBoxTitle {
+  color: #3c3c3c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.09;
+  text-align: left;
+  color: #164f91;  
+}
+
+.companyDetailBoxSub {
+  width: 100%;
+  margin-top:20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+  color: #5f5f5f;
+}
+.companyDetailBoxSubM{
+  display: none;
+  width: 100%;
+  height: 100px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: left;
+  color: #757575;
+}
+
+.companyDetailBox1 {
+  margin-top: 80px;
+  margin-left: 70px;
+  float : right;
+  width: 45.5%;
+  height : 300px;
+}
+
+.companyDetailBoxImg1 {
+  margin-top: 46px;
+  float: left;
+  width: 47%;
+  height: 276px;
+  background: url('img/img1.png') no-repeat center;
+  background-size: cover;
+}
+
+.companyDetailBox2 {
+  margin-top: 80px;
+  float : left;
+  width: 47%;
+  height : 300px;
+}
+
+.companyDetailBoxImg2 {
+  margin-top: 46px;
+  float: right;
+  width: 47%;
+  height: 276px;
+  background: url('img/img2.png') no-repeat center;
+  background-size: cover;
+}
+
+.companyDetailBoxImg3 {
+  margin-top: 46px;
+  float: left;
+  width: 47%;
+  height: 276px;
+  background: url('img/img4.png') no-repeat center;
+  background-size: cover;
+}
+
+.companyDetailBoxImg4 {
+  margin-top: 46px;
+  float: right;
+  width: 47%;
+  height: 276px;
+  background: url('img/img3.png') no-repeat center;
+  background-size: cover;
+}
+
+.companyInfoTitle2 {
+  padding-bottom: 30px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 32px;
+  height: auto;
+  height: 60px;
+  padding-top: 200px;
+  line-height: 50px;
+  text-align: center;
+  color: #3c3c3c;
+}
+
+@media (min-width:768px) and (max-width: 1024px){
+
+
+.companyInfoDetail {
+  margin-top: 16px;
+  width : 60%;
+  font-size: 23px;
+  line-height: 32px;
+}
+
+.companyDetailBoxTitle {
+  margin-top : 46px;
+  font-size: 23px;
+  text-align: center;
+}
+
+.companyDetailBoxSub {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
+  font-size: 20px;
+}
+
+.companyDetailBox1 {
+  margin-top: 40px;
+  margin-left: 0px;
+  float : none;
+  width: 100%;
+  height : 190px;
+  text-align: center;
+}
+
+.companyDetailBoxImg1 {
+  float : none;
+  width: 100%;
+  height: 276px;
+  margin-top: 0px;
+  background-size: cover;
+}
+
+.companyDetailBox2 {
+  margin-top: 40px;
+  float : none;
+  width: 100%;
+  height : 190px;
+  text-align: center;
+}
+
+.companyDetailBoxImg2 {
+  float : none;
+  width: 100%;
+  height: 276px;
+  margin-top: 0px;
+}
+
+.companyDetailBoxImg3 {
+  float : none;
+  width: 100%;
+  height: 276px;
+  margin-top: 0px;
+}
+
+.companyDetailBoxImg4 {
+  float : none;
+  width: 100%;
+  height: 276px;
+  margin-top: 0px;
+}
+
+
+.companyInfoTitle2 {
+  padding-top: 180px;
+  padding-bottom: 50px;
+  font-size: 26px;
+  height: 20px;
+}
+
+}
+
+
+@media (max-width: 768px){
+
+.companyTitle1 {
+  height: 30px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 26px;
+  text-align: center;
+  line-height: 1.5;
+  color: #2f2f2f;
+  float: left;
+}
+
+.companyInfoSubTitle {
+  font-size: 18px;
+}
+
+
+.companyLayoutTitle {
+  margin-bottom: 14px;
+  height: 45px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  line-height: 2.75;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.companyInfoDetail {
+  margin-top: 18px;
+  width : 90%;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.companyTitlebar {
+  margin : 0px auto 40px auto;
+}
+
+.companyDetailBoxTitle {
+  margin-top : 46px;
+  line-height: 1;
+  text-align: center;
+}
+
+.companyDetailBoxSub {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 90%;
+  font-size: 12px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.companyDetailBox1 {
+  margin-top: 40px;
+  margin-left: 0px;
+  float : none;
+  width: 100%;
+  height : 185px;
+  text-align: center;
+}
+
+.companyDetailBoxImg1 {
+  float : none;
+  width: 100%;
+  height: 276px;
+  margin-top: 0px;
+  background-size: cover;
+}
+
+.companyDetailBox2 {
+  margin-top: 40px;
+  float : none;
+  width: 100%;
+  height : 190px;
+  text-align: center;
+}
+
+.companyDetailBoxImg2 {
+  float : none;
+  width: 100%;
+  height: 276px;
+  margin-top: 0px;
+}
+
+.companyDetailBoxImg3 {
+  float : none;
+  width: 100%;
+  height: 276px;
+  margin-top: 0px;
+}
+
+.companyDetailBoxImg4 {
+  float : none;
+  width: 100%;
+  height: 276px;
+  margin-top: 0px;
+}
+
+
+.companyInfoTitle2 {
+  padding-top: 130px;
+  padding-bottom: 30px;
+  font-size: 22px;
+  height: 20px;
+  text-align: center;
+  color: #3c3c3c;
+}
+
+
+}

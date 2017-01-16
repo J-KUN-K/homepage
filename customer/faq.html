@@ -1,0 +1,142 @@
+<?php include('../include/incTop.php'); ?>
+<body>
+<?php include('../include/incHeader.php'); ?>
+<div class="faqListLayout">
+	<div class="faqListMain">
+
+		<div class="faqListTitle">FAQ</div>
+    <div class="faqSpace"></div>
+    <div class="faqTabGroup">
+      <div class="faqTab" >투자</div>
+      <div class="faqTabSpace"></div>
+      <div class="faqTab">기타</div>
+    </div>
+
+		<div class="faqListContent">
+			<div class="faqListTable">
+        <div class="faqTable">
+					<div class="faqNo">01</div>
+					<div class="faqTitle">
+             은행대출은 왜 좋은가요?      
+          </div>
+          <div class="faqDown"></div>
+          <div class="faqUp"></div>
+        </div>
+		      <div class="faqContent">
+            은행대출은 왜 좋은가요?
+		      </div>
+			</div>
+
+      <div class="faqListTable">
+        <div class="faqTable">
+        <div class="faqNo">02</div>
+          <div class="faqTitle">
+             이자율 30% 인하가 어떻게 가능한가요?      
+          </div>
+          <div class="faqDown"></div>
+          <div class="faqUp"></div>
+        </div>
+          <div class="faqContent">
+            투자자와 대출자를 온라인으로 연결하여 중간비용을 감소시키고, 빅데이터 신용평가를 통해 상환의지가 높은 고객에게 더 낮은 이자율을 제시할 수 있습니다.
+          </div>
+      </div>     
+
+      <div class="faqListTable">
+        <div class="faqTable">
+          <div class="faqNo">03</div>
+          <div class="faqTitle">
+             써티컷과 농협은행은 어떤 관계이고, 각각 어떤 역할을 하는건가요?     
+          </div>
+          <div class="faqDown"></div>
+          <div class="faqUp"></div>
+        </div>
+          <div class="faqContent">
+            투자자와 대출자를 온라인으로 연결하여 중간비용을 감소시키고, 빅데이터 신용평가를 통해 상환의지가 높은 고객에게 더 낮은 이자율을 제시할 수 있습니다.
+          </div>
+      </div>        
+    </div>
+
+    <div class="faqListContent">
+      <div class="faqListTable">
+        <div class="faqTable">
+          <div class="faqNo">01</div>
+          <div class="faqTitle">
+             기타   
+          </div>
+          <div class="faqDown"></div>
+          <div class="faqUp"></div>
+        </div>
+          <div class="faqContent">
+            은행대출은 왜 좋은가요?
+          </div>
+      </div>
+
+      <div class="faqListTable">
+        <div class="faqTable">
+        <div class="faqNo">02</div>
+          <div class="faqTitle">
+             기타
+          </div>
+          <div class="faqDown"></div>
+          <div class="faqUp"></div>
+        </div>
+          <div class="faqContent">
+            투자자와 대출자를 온라인으로 연결하여 중간비용을 감소시키고, 빅데이터 신용평가를 통해 상환의지가 높은 고객에게 더 낮은 이자율을 제시할 수 있습니다.
+          </div>
+      </div>     
+
+      <div class="faqListTable">
+        <div class="faqTable">
+          <div class="faqNo">03</div>
+          <div class="faqTitle">
+             기타     
+          </div>
+          <div class="faqDown"></div>
+          <div class="faqUp"></div>
+        </div>
+          <div class="faqContent">
+            투자자와 대출자를 온라인으로 연결하여 중간비용을 감소시키고, 빅데이터 신용평가를 통해 상환의지가 높은 고객에게 더 낮은 이자율을 제시할 수 있습니다.
+          </div>
+      </div>        
+    </div>
+	</div>
+</div>
+<?php include('../include/Footer.html'); ?>
+<script>
+$(document).ready(function() {
+  $(".faqUp").hide();
+  $(".faqContent").hide();
+
+
+  $(".faqListTable").click(function() {
+    var index = $(".faqListTable").index(this);
+    
+    if ($(".faqUp:eq(" + index + ")").is(":visible") == false) {
+      $(".faqTitle:eq(" + index + ")").css("color", "#164f91");
+      $(".faqDown:eq(" + index + ")").hide();
+      $(".faqUp:eq(" + index + ")").show();
+      $(".faqContent:eq(" + index + ")").show();
+    } else {
+      $(".faqTitle:eq(" + index + ")").css("color", "#333333");
+      $(".faqDown:eq(" + index + ")").show();
+      $(".faqUp:eq(" + index + ")").hide();
+      $(".faqContent:eq(" + index + ")").hide();      
+    }
+
+  });
+
+  var tabIndex = 0;
+  
+  $(".faqTab:eq(" + tabIndex + ")").addClass("faqTabActive");
+  $(".faqListContent:eq(" + 1 + ")").hide();
+
+  $(".faqTab").click(function() {
+    $(".faqTab:eq(" + tabIndex + ")").removeClass("faqTabActive");
+    $(".faqListContent:eq(" + tabIndex + ")").hide();
+    
+    tabIndex = $(".faqTab").index(this);
+    $(".faqTab:eq(" + tabIndex + ")").addClass("faqTabActive");
+    $(".faqListContent:eq(" + tabIndex + ")").show();
+  });
+});
+</script>  

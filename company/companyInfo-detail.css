@@ -1,0 +1,179 @@
+@import url( "https://fonts.googleapis.com/earlyaccess/notosanskr.css" );
+.companyDetailSpace{
+  height: 350px;
+}
+.companyPeopleDetail{
+  margin-left: 10px;
+  margin-right: 8px;
+  width: 1092px;
+  height: 425px;
+  background-color: #ffffff;
+  border: solid 1px #c4c4c4;
+  display : flex;
+  display: -webkit-flex;
+  text-align: center;
+}
+.companyDetailGroup{
+  margin-top: 84px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 265px;
+  width: 170px;
+}
+.companyDetailMessage{
+  margin-top: 101px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 265px;
+  width: 570px;
+}
+.companyDetailName {
+  margin-top: 34px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 22px;
+  line-height: 3px;
+  text-align: center;
+  color: #3c3c3c;
+}
+
+.companyDetailPosition {
+  margin-top : 18px;
+  padding-top: 18px;
+  margin-left: 3px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 3px;
+  text-align: center;
+  color: #333333;
+}
+.companyMessageTitle{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: #18559c;
+}
+.companyMessageContent{
+  margin-top: 35px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  text-align: left;
+  color: #3c3c3c;
+}
+.companyDetailImg1{
+  width : 170px;
+  height: 170px;
+  background: url('img/p1.png') no-repeat center;
+  background-size: cover;
+}
+.companyDetailImg1{
+  width : 170px;
+  height: 170px;
+  background: url('img/p1.png') no-repeat center;
+  background-size: cover;
+}
+.companyDetailImg2{
+  width : 170px;
+  height: 170px;
+  background: url('img/p2.png') no-repeat center;
+  background-size: cover;
+}
+.companyDetailImg3{
+  width : 170px;
+  height: 170px;
+  background: url('img/p3.png') no-repeat center;
+  background-size: cover;
+}
+.companyDetailImg4{
+  width : 170px;
+  height: 170px;
+  background: url('img/p4.png') no-repeat center;
+  background-size: cover;
+}
+.companyDetailImg5{
+  width : 170px;
+  height: 170px;
+  background: url('img/p5.png') no-repeat center;
+  background-size: cover;
+}
+.companyDetailImg6{
+  width : 170px;
+  height: 170px;
+  background: url('img/p6.png') no-repeat center;
+  background-size: cover;
+}
+.companyCloseBtn{
+  margin-right: 33px;
+  margin-top: 33px;
+  width: 26px;
+  height: 28px;
+  background: url('img/btn_close.png') no-repeat center;
+  background-size: cover;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .companyDetailSpace{
+    height: 130px;
+    }
+    
+  .companyPeopleDetail{
+    margin-left : auto;
+    margin-right: auto;
+    width : 90%;
+  }
+}
+
+@media (max-width: 768px){
+  .companyPeopleDetail{
+    margin-left: 14px;
+    margin-right: 4px;
+    width: 92%;
+    height: 800px;
+    background-color: #ffffff;
+    border: solid 1px #c4c4c4;
+    display : block;;
+    text-align: center;
+  }
+  .companyMessageTitle{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+
+  }
+  .companyMessageContent{
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.53;
+    text-align: left;
+    color: #3c3c3c;
+  }
+  .companyDetailMessage{
+    width: 90%;
+  }
+  .companyDetailSpace{
+    height: 700px;
+  }
+
+  .companyCloseBtn{
+
+    float: right;
+    margin-right: 3%;
+    margin-top: -700px;
+    width: 22px;
+    height: 23px;
+    background: url('img/btn_close.png') no-repeat center;
+    background-size: cover;
+  }
+}
