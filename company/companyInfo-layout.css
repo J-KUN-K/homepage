@@ -1,0 +1,251 @@
+@import url( "https://fonts.googleapis.com/earlyaccess/notosanskr.css" );
+.companyLayout {
+  padding-top: 104px;
+  margin-top: 140px;
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.companyMain {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1092px;
+  background-color: #ffffff;
+}
+
+.companyInfoLayout {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 270px;
+  text-align: center;
+
+}
+
+.companyInfoTitle1 {
+  padding-left: 10px;
+  height: 50px;
+  font-size : 26.1px;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color : #164f91;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.companyInfoValuesLayout {
+  width : 100%;
+}
+.companyInfoLayout2 {
+  font-family: 'Noto Sans KR', sans-serif;
+  width: 100%;
+  height: 365px;
+  border-bottom: solid 1px #dedede;
+}
+
+.companyInfoLayout3 {
+  font-family: 'Noto Sans KR', sans-serif;
+  width: 100%;
+  margin-top: 160px;
+}
+.companyTeamLayout {
+  margin-top:25px;
+  width : 100%;
+  height: 350px;
+/*  border-bottom: solid 1px #c4c4c4;*/
+}
+
+.companyPeopleLeft {
+  margin-top: 20px;
+  float: left;
+  width : 522px;
+  height:  126px;
+  margin-left: 9px;
+  margin-right: 13px;
+  background-color: #ffffff;
+  border: solid 1px #c4c4c4;
+}
+.companyPeopleLeft:hover{
+  border: solid 1px #18559c;
+}
+.companyPeopleLeft:hover .companyPlusImg{
+  background: url('img/ic_plus.png') no-repeat center;
+  background-size: cover;
+}
+
+.companyPeopleRight {
+  width : 536px;
+  height:  126px;
+  margin-left: 18px;
+  background-color: #ffffff;
+  border: solid 1px #c4c4c4;
+  display: flex;
+  display: -webkit-flex;
+}
+
+.companyInfoLayout4 {
+  font-family: 'Noto Sans KR', sans-serif;
+  width: 100%;
+  height: 1000px;
+  padding-top: 130px;
+}
+
+.companyHistoryLayout {
+  margin-top : 40px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width : 900px;
+  display : flex;
+  display: -webkit-flex;
+  text-align: center;
+}
+
+
+
+@media (min-width:768px) and (max-width: 1024px){
+ .companyLayout {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 104px;
+  margin-top: 57px;
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.companyMain {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.companyInfoLayout {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+
+}
+
+
+.companyInfoLayout2 {
+  width: 100%;
+  height: 500px;
+  border-bottom: solid 1px #dedede;
+  text-align: center;
+  display: inline-block;
+}
+
+.companyTeamLayout {
+  margin-top: 20px;
+  margin-left: auto;
+  height: 600px;
+}
+
+.companyPeopleLeft {
+  width : 90%;
+  height:  125px;
+  margin-left : auto;
+  margin-right: auto;
+  float : none;
+}
+
+
+.companyInfoLayout4 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.companyHistoryLayout {
+  margin-top : 15px;
+  width : 95%;
+}
+
+
+
+}
+
+@media (max-width: 768px){
+.companyLayout {
+  padding-top: 54px;
+  margin-top: 57px;
+  width: 100%;
+  padding-bottom: 100px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.companyMain {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-bottom: 100px;
+  background-color: #ffffff;
+}
+
+.companyInfoLayout {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 230px;
+  text-align: center;
+
+}
+
+.companyInfoValuesLayout {
+  width : 100%;
+}
+
+.companyInfoTitle1 {
+  width: 303px;
+  margin-bottom:35px;
+  font-size: 20px;
+}
+
+.companyInfoLayout2 {
+  width: 100%;
+  height: 505px;
+  border-bottom: solid 1px #dedede;
+  text-align: center;
+  display: inline-block;
+}
+
+.companyTeamLayout {
+  margin-top: 20px;
+  height: 700px;
+  width : 95%;
+  text-align: center;
+  display: inline-block;
+}
+
+.companyPeopleLeft {
+  width : 92%;
+  height:  125px;
+}
+
+.companyPeopleRight {
+  margin-top: 10px;
+  width : 100%;
+  height:  125px;
+  margin-left: 0px;
+}
+
+.companyInfoLayout4 {
+  width: 100%;
+  padding-top: 0px;
+  height: 600px;
+}
+
+.companyHistoryLayout {
+  margin-top : 15px;
+  width : 95%;
+}
+
+}

@@ -1,0 +1,93 @@
+<?php include('../include/incTop.php'); ?>
+<body>
+<?php include('../include/incHeader.php'); ?>
+<div class="contactLayout">
+	<div class="contactMainLayout">
+		<div class="contactMainTitle">CONTACT US</div>
+		<div class="contactTitlebar"></div>
+		<div class="contactMain">
+		<div class="contactMap" id="cs_map"></div>
+		<script>
+		var container = document.getElementById('cs_map');
+		var options = {
+			center: new daum.maps.LatLng(33.450701, 126.570667),
+			level: 3
+		};
+
+		var map = new daum.maps.Map(container, options);
+
+		var geocoder = new daum.maps.services.Geocoder();
+
+		// 주소로 좌표를 검색합니다
+		geocoder.addr2coord('서울시 강남구 봉은사로 37길 5, 태양빌딩', function(status, result) {
+
+		    // 정상적으로 검색이 완료됐으면
+		     if (status === daum.maps.services.Status.OK) {
+
+		        var coords = new daum.maps.LatLng(result.addr[0].lat, result.addr[0].lng);
+
+		        // 결과값으로 받은 위치를 마커로 표시합니다
+		        var marker = new daum.maps.Marker({
+		            map: map,
+		            position: coords
+		        });
+
+		/*        // 인포윈도우로 장소에 대한 설명을 표시합니다
+		        var infowindow = new daum.maps.InfoWindow({
+		            content: '<div style="width:150px;text-align:center;padding:6px 0;">우리회사</div>'
+		        });
+		        infowindow.open(map, marker);*/
+
+		        // 지도의 중심을 결과값으로 받은 위치로 이동시킵니다
+		        map.setCenter(coords);
+		    }
+		});
+		</script>
+			<div class="contactContent">
+				<div class="contactContentAddr">
+					<div class="contactTitle">Address</div>
+					<div class="contactSubTitle">도로명 주소</div>
+					<div class="contactAddr">서울시 강남구 봉은사로 37길 5, 태양빌딩 3층 비욘드플랫폼(주), 06109</div>
+					<div class="contactEngAddr">Taeyang Tower 3F, 5, Bongeunsa-ro 37-gil, Gangnam-gu, Seoul, Republic of Korea, 06109</div>
+
+					<div class="contactSubTitle">지번 주소</div>
+					<div class="contactAddr">서울시 강남구 논현동 236-4, 태양빌딩 3층 비욘드플랫폼(주), 06109</div>
+					<div class="contactEngAddr">Taeyang Tower 3F, 236-4, Nonhyeon-dong, Gangnam-gu, Seoul, Republic of Korea, 06109</div>
+
+				</div>
+				<div class="contactContentCS">
+					<div class="contactTitle">Contact</div>
+					<div class="CSDetail">
+						<div class="contactCSSubTitle">E.MAIL</div>
+						<div class="contactCSDetail">admin@beyondfund.co.kr</div>
+					</div>
+					<div class="CSDetail">
+						<div class="contactCSSubTitle">전화</div>
+						<div class="contactCSDetail">1661 - 0301</div>
+					</div>
+					<div class="CSDetail">
+						<div class="contactCSSubTitle">FAX</div>
+						<div class="contactCSDetail">02 - 2038 - 8976</div>
+					</div>
+					<div class="CSDetail">
+						<div class="contactCSSubTitle">운영시간</div>
+						<div class="contactCSDetail">am 9 : 30 ~ pm 6 : 30</div>
+					</div>
+					<div class="CSDetail">
+						<div class="contactCSSubTitle"><span style="color:#164f91">제휴문의</span></div>
+						<div class="contactCSDetail"><span style="color:#164f91">loan@beyondfund.co.kr</span></div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<?php include('../include/Footer.html'); ?>
+<script src="../js/jquery-2.1.4.min.js"></script><!-- jQuery library -->
+<script src="../js/bootstrap.min.js"></script><!-- .bootstrap script -->
+<script src="../js/jquery.scripts.min.js"></script><!-- modernizr, retina, stellar for parallax -->  
+<script src="../masterslider/masterslider.min.js"></script><!-- Master slider main js -->
+<script src="../masterslider/jquery.easing.min.js"></script><!-- Master slider easing js -->
+<script src="../js/jquery.dlmenu.min.js"></script><!-- for responsive menu -->
+<script src="../js/include.js"></script><!-- custom js functions -->

@@ -57,10 +57,11 @@
 						<div class="pic_container">
 							<img src="/img/main/img_product1.png" alt="" style="width:100%"/>
 						</div>
-						<div class="progress_container" style="border-bottom:1px solid gray;">
-							<div class="progress" style="margin:0px;">
-							  <div class="progress-bar bg-warning" role="progressbar" style="width: 30%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <span style="margin-left:2%;">30%</span>
-							</div>
+						<div style="width:100%;    height : 28px; background : #eaeaea;">    
+							<span class="graph">
+							   	<span style="margin-left : 10px;color:#fff">55%</span>
+							</span>
+							<span class="dDay">D-2</span>
 						</div>
 						<div class="contents_container" style="margin:5%">
 							<span style="font-size:11px;color:gray;">OPEN 02.18</span><br/>
@@ -89,10 +90,11 @@
 						<div class="pic_container">
 							<img src="/img/main/img_product2.png" alt="" style="width:100%"/>
 						</div>
-						<div class="progress_container" style="border-bottom:1px solid gray;">
-							<div class="progress" style="margin:0px;">
-							  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <span style="margin-left:2%;">50%</span>
-							</div>
+						<div style="width:100%;    height : 28px; background : #eaeaea;">    
+							<span class="graph">
+							   	<span style="margin-left : 10px;color:#fff">77%</span>
+							</span>
+							<span class="dDay">D-2</span>
 						</div>
 						<div class="contents_container" style="margin:5%">
 							<span style="font-size:11px;color:gray;">OPEN 02.18</span><br/>
@@ -121,10 +123,11 @@
 						<div class="pic_container">
 							<img src="/img/main/img_product3.png" alt="" style="width:100%"/>
 						</div>
-						<div class="progress_container" style="border-bottom:1px solid gray;">
-							<div class="progress" style="margin:0px;">
-							  <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <span style="margin-left:2%;">75%</span>
-							</div>
+						<div style="width:100%;    height : 28px; background : #eaeaea;">    
+							<span class="graph">
+							   	<span style="margin-left : 10px;color:#fff">95%</span>
+							</span>
+							<span class="dDay">D-2</span>
 						</div>
 						<div class="contents_container" style="margin:5%">
 							<span style="font-size:11px;color:gray;">OPEN 02.18</span><br/>
@@ -194,51 +197,25 @@
 					</div>
 				</div>
 			</div>
-
-				<!--
-					<div style="border:5px gray solid;width:90%;margin:5% auto;">
-						<div style="padding:0 3%;">
-							<div style="display:inline-block;width:19%;text-align:center;padding:3% 0px;">
-								<p style="font-size:19px;padding:0 0 15%;">누적 투자액</p>
-								<span style="font-size:18px;"><strong style="font-size:29px;">78</strong>억원</span>
-							</div>
-							<div style="display:inline-block;width:19%;text-align:center;padding:3% 0px;">
-								<p style="font-size:19px;padding:0 0 15%;">누적 상환액</p>
-								<span style="font-size:18px;"><strong style="font-size:29px;">23</strong>억원</span>
-							</div>
-							<div style="display:inline-block;width:19%;text-align:center;padding:3% 0px;">
-								<p style="font-size:19px;padding:0 0 15%;">평균 수익율(연)</p>
-								<span style="font-size:18px;"><strong style="font-size:29px;">120</strong>%</span>
-							</div>
-							<div style="display:inline-block;width:19%;text-align:center;padding:3% 0px;">
-								<p style="font-size:19px;padding:0 0 15%;">연체율</p>
-								<span style="font-size:18px;"><strong style="font-size:29px;">12</strong>%</span>
-							</div>
-							<div style="display:inline-block;width:19%;text-align:center;padding:3% 0px;">
-								<p style="font-size:19px;padding:0 0 15%;">부도율</p>
-								<span style="font-size:18px;"><strong style="font-size:29px;">2</strong>%</span>
-							</div>
-						</div>
-					</div>
-				-->
 		</div><!-- .container end -->
 	</div><!-- .page-content end -->
 	
 
-	<div class="main-cont6" style="border-bottom:1px solid gray">
+	<div class="main-cont8" style="border-bottom:1px solid gray">
 		<div class="container">
 			<!-- .row start -->
 			<div class="row">
 				<div class="col-md-12">
-					<div >
-						<span style="color:white;font-size:35px;font-family:'Montserrat', sans-serif;"> 개발중간에 투입 추가 콘티젼시펀드</span>
+					<div class="col-md-6" style="text-align:left;padding-left:5%;">
+						<span style="padding:0 10px;color:white;font-size:23px;font-family:'Montserrat', sans-serif;"><img src="/img/main/contigency_lock.png" style="display:inline;padding-right:20px;"/>Contingency Fund</span><br/><br/><br/>
+						<p style="font-size:16px;line-height:25px;color:#fff;font-family:'Montserrat', sans-serif;">투자 손실의 일부분을 보전할 수 있는  Contingency Fund를 운영 합니다. 회사의 자본금으로 3억원을 초기 선납입하며, 투자자 수익의 일부분을 계속 적립하여 채권 부실 발생 시 미상환 원금의 90%까지 손실 보전을 진행합니다.</p>
+						<div class="col-md-4" style="border:2px solid #fff;padding:6px 5px;text-align:center;">
+								<a style="font-size:23px;color:white;">자세히 보기</a>
+						</div>
 					</div>
-				</div>
-			</div><!-- .row end -->
-			<div class="row">
-				<div class="col-md-7 col-md-offset-2">
-					<div style="marin:0 auto;">
-						<p style="color:white;font-size:24px;line-height:38px;font-family:'Noto Sans KR', sans-serif;"> 콘티젼시 펀드라인 문구입력 구간입니다. 콘티젼시 펀드라인 문구입력 구간입니다.콘티젼시 펀드라인 문구입력 구간입니다. 콘티젼시 펀드라인 문구입력 구간입니다.</p>
+					<div class="col-md-5 col-md-offset-1 img-back" style="height:150px;width:410px;margin-top:5%;font-size:30px;">
+						<span class="col-md-6" style="text-align:left;display:block;position:relative;top:45%;padding-left:5%;color:#fff">펀드 현재액</span>
+						<span class="col-md-6" style="text-align:right;display:block;position:relative;top:45%;color:#fff">3.0 억원</span>
 					</div>
 				</div>
 			</div><!-- .row end -->
@@ -292,10 +269,10 @@
 						<img src="/img/main/rule_3.png"  style="vertical-align:top;height:100%;margin:0 auto;">
 					</div>
 					<div class="col-xs-9">
-							<p style="display:inline-block;font-family:'Noto Sans KR', sans-serif;">
-								<span style="font-family:'Montserrat', sans-serif;display:block;padding-bottom:3px;">Alternative Asset Investment</span>
+						<p style="display:inline-block;font-family:'Noto Sans KR', sans-serif;">
+							<span style="font-family:'Montserrat', sans-serif;display:block;padding-bottom:3px;">Alternative Asset Investment</span>
 								제도권 금융기관이 취급하는 수준의 대체투자 자산에 대한 대출로서 투자자의 수익률과 리스크를 관리합니다.
-							</p>
+						</p>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -303,18 +280,17 @@
 						<img src="/img/main/rule_4.png"  style="vertical-align:top;height:100%;margin:0 auto;">
 					</div>
 					<div class="col-xs-9">
-							<p style="display:inline-block;font-family:'Noto Sans KR', sans-serif;">
-								<span style="font-family:'Montserrat', sans-serif;display:block;padding-bottom:3px;">Creater Transparency</span>
-								대출자산에 대한 연체율, 손실률 등 리스크 요인을 포함한 상세정보를 투자자에게 투명하게 제공합니다.
-							</p>
+						<p style="display:inline-block;font-family:'Noto Sans KR', sans-serif;">
+							<span style="font-family:'Montserrat', sans-serif;display:block;padding-bottom:3px;">Creater Transparency</span>
+							대출자산에 대한 연체율, 손실률 등 리스크 요인을 포함한 상세정보를 투자자에게 투명하게 제공합니다.
+						</p>
 					</div>
 				</div>	
 			</div><!-- .row end -->
 		</div><!-- .container end -->
 	</div><!-- .page-content end -->
 
-	 <!-- .page-content start -->
-	
+	 <!-- .page-content start -->	
 	<div class="main-cont5" style="border-bottom:1px solid gray">
 		<div class="container">
 			<!-- .row start -->
@@ -334,28 +310,28 @@
 				<div class="col-md-12">
 						<ul class="bxslider" style="padding-bottom:10%;">
 							<li class="owl-item" style="width:340px;height:430px;">
-								<img src='/img/hk_logo.png' style="width:100%; height:20%;"/>
-								<img src='/img/main/invest_1.png' style="width:100%; height:50%; padding-bottom:5%;"/><h5 style="text-align:left;">써티컷 자매브랜드 비욘드 펀드 대체 투자자산 P2P도전</h5><p style="word-break:break-all;text-align:left;">어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌.....
+								<img src='/img/hk_logo.png' style="width:50%; height:13%;margin:0 auto;padding-bottom:5%;"/>
+								<img src='/img/main/invest_1.png' style="width:100%; height:55%; padding-bottom:5%;"/><h5 style="text-align:left;">써티컷 자매브랜드 비욘드 펀드 대체 투자자산 P2P도전</h5><p style="word-break:break-all;text-align:left;">어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌.....
 							.</p></li>
 							<li class="owl-item" style="width:340px;height:430px;">
-								<img src='/img/hk_logo.png' style="width:100%; height:20%;"/>
-								<img src='/img/main/invest_1.png' style="width:100%; height:50%; padding-bottom:5%;"/><h5 style="text-align:left;">써티컷 자매브랜드 비욘드 펀드 대체 투자자산 P2P도전</h5><p style="word-break:break-all;text-align:left;">어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌.....
+								<img src='/img/hk_logo.png' style="width:50%; height:13%;margin:0 auto;padding-bottom:5%;"/>
+								<img src='/img/main/invest_1.png' style="width:100%; height:55%; padding-bottom:5%;"/><h5 style="text-align:left;">써티컷 자매브랜드 비욘드 펀드 대체 투자자산 P2P도전</h5><p style="word-break:break-all;text-align:left;">어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌.....
 							.</p></li>
 							<li class="owl-item" style="width:340px;height:430px;">
-								<img src='/img/hk_logo.png' style="width:100%; height:20%;"/>
-								<img src='/img/main/invest_1.png' style="width:100%; height:50%; padding-bottom:5%;"/><h5 style="text-align:left;">써티컷 자매브랜드 비욘드 펀드 대체 투자자산 P2P도전</h5><p style="word-break:break-all;text-align:left;">어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌.....
+								<img src='/img/hk_logo.png' style="width:50%; height:13%;margin:0 auto;padding-bottom:5%;"/>
+								<img src='/img/main/invest_1.png' style="width:100%; height:55%; padding-bottom:5%;"/><h5 style="text-align:left;">써티컷 자매브랜드 비욘드 펀드 대체 투자자산 P2P도전</h5><p style="word-break:break-all;text-align:left;">어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌.....
 							.</p></li>
 							<li class="owl-item" style="width:340px;height:430px;">
-								<img src='/img/hk_logo.png' style="width:100%; height:20%;"/>
-								<img src='/img/main/invest_1.png' style="width:100%; height:50%; padding-bottom:5%;"/><h5 style="text-align:left;">써티컷 자매브랜드 비욘드 펀드 대체 투자자산 P2P도전</h5><p style="word-break:break-all;text-align:left;">어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌.....
+								<img src='/img/hk_logo.png' style="width:50%; height:13%;margin:0 auto;padding-bottom:5%;"/>
+								<img src='/img/main/invest_1.png' style="width:100%; height:55%; padding-bottom:5%;"/><h5 style="text-align:left;">써티컷 자매브랜드 비욘드 펀드 대체 투자자산 P2P도전</h5><p style="word-break:break-all;text-align:left;">어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌.....
 							.</p></li>
 							<li class="owl-item" style="width:340px;height:430px;">
-								<img src='/img/hk_logo.png' style="width:100%; height:20%;"/>
-								<img src='/img/main/invest_1.png' style="width:100%; height:50%; padding-bottom:5%;"/><h5 style="text-align:left;">써티컷 자매브랜드 비욘드 펀드 대체 투자자산 P2P도전</h5><p style="word-break:break-all;text-align:left;">어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌.....
+								<img src='/img/hk_logo.png' style="width:50%; height:13%;margin:0 auto;padding-bottom:5%;"/>
+								<img src='/img/main/invest_1.png' style="width:100%; height:55%; padding-bottom:5%;"/><h5 style="text-align:left;">써티컷 자매브랜드 비욘드 펀드 대체 투자자산 P2P도전</h5><p style="word-break:break-all;text-align:left;">어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌.....
 							.</p></li>
 							<li class="owl-item" style="width:340px;height:430px;">
-								<img src='/img/hk_logo.png' style="width:100%; height:20%;"/>
-								<img src='/img/main/prv_tiger.png' style="width:100%; height:50%; padding-bottom:5%;"/><h5 style="text-align:left;">써티컷 자매브랜드 비욘드 펀드 대체 투자자산 P2P도전</h5><p style="word-break:break-all;text-align:left;">어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌.....
+								<img src='/img/hk_logo.png' style="width:50%; height:13%;margin:0 auto;padding-bottom:5%;"/>
+								<img src='/img/main/prv_tiger.png' style="width:100%; height:55%; padding-bottom:5%;"/><h5 style="text-align:left;">써티컷 자매브랜드 비욘드 펀드 대체 투자자산 P2P도전</h5><p style="word-break:break-all;text-align:left;">어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌구어쩌구저쩌구어쩌.....
 							.</p></li>
 						</ul><!-- .owl-carousel end -->
 				</div><!-- .col-md-12 end -->
@@ -408,6 +384,7 @@
 <script src="js/jquery.bxslider.min.js"></script>
 <!--<script src="js/progress.min.js"></script>-->
 <script type="text/javascript" src="js/custom.Index.js" ></script>
+
 
 </body>
 </html>
