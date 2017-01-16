@@ -60,11 +60,11 @@
                                                 </li>
 
 												<li class="dropdown col-md-2">
-                                                    <a href="/login/login.php" style="letter-spacing:0px;border:2px solid #fff;padding:12px 25px 12px 11px">회원가입</a>                                          
+                                                    <a href="/account/signup.html" style="letter-spacing:0px;border:2px solid #fff;padding:12px 25px 12px 11px">회원가입</a>                                          
                                                 </li>
 		
 												<li class="dropdown col-md-2">
-                                                    <a href="/join/enterEmail.php" style="letter-spacing:0px;border:2px solid #fff;padding:12px 10px 12px 11px">로그인</a>
+                                                    <a href="/account/login.html" style="letter-spacing:0px;border:2px solid #fff;padding:12px 10px 12px 11px">로그인</a>
                                                 </li>
                                               
 
