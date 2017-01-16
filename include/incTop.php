@@ -30,6 +30,12 @@
 		<link rel="stylesheet" href="/customer/notice.css" />
 
 		
+		<link rel="stylesheet" href="/company/companyInfo-layout.css" />
+  		<link rel="stylesheet" href="/company/companyInfo-content.css" />
+  		<link rel="stylesheet" href="/company/companyInfo-history.css" />
+  		<link rel="stylesheet" href="/company/companyInfo-people.css" />
+  		<link rel="stylesheet" href="/company/companyInfo-detail.css" />
+		
 		<!-- 계정 -->
 		<link rel="stylesheet" href="/account/account_input.css" />
 		<link rel="stylesheet" href="/account/login.css" />
@@ -55,7 +61,16 @@
         <!-- MasterSlider Testimonial Style -->
         <link href='/masterslider/style/ms-staff-style.css' rel='stylesheet' type='text/css'>
 
-		<!-- Font icons -->
-        <!--<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css"/><!-- Font awesome icons -->
 		<script src="https://apis.daum.net/maps/maps3.js?apikey=86580aafb572fb06cde132ac58430033&libraries=services"></script>
-    </head>
+
+		<!-- js -->
+		<script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+		<!-- <script type="text/javascript" src="/js/custom/beyond.js"></script> -->
+
+<!-- 		<script type="text/javascript" src="/js/jquery.scripts.min.js"></script>
+		<script type="text/javascript" src="/masterslider/masterslider.min.js"></script>
+		<script type="text/javascript" src="/masterslider/jquery.easing.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.dlmenu.min.js"></script>
+		<script type="text/javascript" src="/js/include.js"></script>	
+ -->    </head>

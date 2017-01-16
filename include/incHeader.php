@@ -38,15 +38,15 @@
                                                 </li>
 												-->
                                                 <li class="dropdown col-md-2">
-                                                    <a href="/loan/loanInfo.php">투자</a>                                          
+                                                    <a href="/loan/loanInfo.php">투자</a>
                                                 </li>
                                                 <li class="dropdown col-md-2">
-                                                    <a href="/loan/loan.html">대출</a>                                          
+                                                    <a href="/loan/loan.html">대출</a>        
                                                 </li>
 
-												<li class="dropdown col-md-2"><a href="/#" data-toggle="dropdown" class="dropdown-toggle">회사소개</a>
+												<li class="dropdown col-md-2"><a href="/company/companyInfo.html" data-toggle="dropdown" class="dropdown-toggle">회사소개</a>
                                                     <ul class="dropdown-menu">
-                                                        <li><a href="/aboutUs/30Cut.php">BEYOND FUND</a></li>
+                                                        <li><a href="/company/companyInfo.html">BEYOND FUND</a></li>
                                                         <li><a href="/media/media.html">언론보도</a></li>
                                                     </ul>
                                                 </li>

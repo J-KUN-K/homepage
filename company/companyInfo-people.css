@@ -1,0 +1,259 @@
+@import url( "https://fonts.googleapis.com/earlyaccess/notosanskr.css" );
+.companyTeamDetail {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  width: 800px;
+  line-height: 30px;
+  text-align: center;
+  color: #919191;
+}
+
+
+.companyTeamTitle {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-top: 136px;
+  height: 40px;
+  font-size: 24px;
+  line-height: 15px;
+  text-align: center;
+  color: #f2834a;
+}
+
+.companyPeopleName {
+  height: 80px;
+  margin-top: 45px;
+  margin-left : 51px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 22px;
+  line-height: 3px;
+  text-align: left;
+  color: #3c3c3c;
+  float: left;
+}
+
+.companyPeoplePosition {
+  margin-top : 18px;
+  padding-top: 18px;
+  margin-left: 3px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 3px;
+  text-align: left;
+  float: initial;
+  color: #333333;
+}
+
+.companyPeoplePosition2 {
+  font-weight: normal;
+  margin-left : -1px;
+  margin-right: 13px;
+}
+
+.companyPlusImg {
+  margin-top: 45px;
+  margin-right: 19px;
+  width : 34px;
+  height: 34px;
+  float : right;
+  background: url('img/ic_plus.png') no-repeat center;
+  background-size: cover;
+}
+
+.companyCloseImg {
+  position: absolute;
+  margin-top: 38px;
+  margin-left: -65px;
+  width : 26px;
+  height: 26px;
+  background: url('img/btn_close.png') no-repeat center;
+  background-size: cover;
+}
+
+.companyPeopleImg1 {
+  margin-top: 16px;
+  margin-left: 23px;
+  float: left;
+  width : 95px;
+  height: 95px;
+  background: url('img/p1.png') no-repeat center;
+  background-size: cover;
+}
+
+
+.companyPeopleImg2 {
+  margin-top: 16px;
+  margin-left: 23px;
+  float: left;
+  width : 95px;
+  height: 95px;
+  background: url('img/p2.png') no-repeat center;
+  background-size: cover;
+}
+
+
+.companyPeopleImg3 {
+  margin-top: 16px;
+  margin-left: 23px;
+  float: left;
+  width : 95px;
+  height: 95px;
+  background: url('img/p3.png') no-repeat center;
+  background-size: cover;
+}
+
+
+.companyPeopleImg4 {
+  margin-top: 16px;
+  margin-left: 23px;
+  float: left;
+  width : 95px;
+  height: 95px;
+  background: url('img/p4.png') no-repeat center;
+  background-size: cover;
+}
+
+
+
+
+@media (min-width:768px) and (max-width: 1024px){
+
+.companyTeamDetail {
+  font-size: 21px;
+  width: 90%;
+  line-height: 22px;
+  margin-bottom: 40px;
+}
+
+.companyPeopleName {
+  width: 170px;
+  margin-left : 23px;
+  font-size: 21px;
+}
+
+.companyPeoplePosition {
+  width: 200px;
+  padding-top: 12px;
+  margin-left: 3px;
+  font-size: 18px;
+}
+
+.companyPeoplePosition2 {
+  font-weight: normal;
+  margin-left : -1px;
+  margin-right: 13px;
+}
+
+.companyPlusImg {
+  background-size: 78%;
+}
+
+.companyPeopleImg1 {
+  margin-left: 4%;
+  background-size: 94%;
+}
+
+
+.companyPeopleImg2 {
+  margin-left: 4%;
+  background-size: 94%;
+}
+
+
+.companyPeopleImg3 {
+  margin-left: 4%;
+  background-size: 94%;
+}
+
+
+.companyPeopleImg4 {
+  margin-left: 4%;
+  background-size: 94%;
+}
+
+
+
+}
+
+@media (max-width: 768px){
+
+.companyTeamDetail {
+  font-size: 13px;
+  width: 90%;
+  text-align: left;
+  line-height: 22px;
+}
+
+.companyTeamTitle {
+  margin-top: 120px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.companyPeopleName {
+  margin-top:48px;
+  margin-left : 15px;
+  font-size: 15px;
+}
+
+.companyPeoplePosition {
+  padding-top: 9px;
+  margin-left: 3px;
+  font-size: 13px;
+}
+
+.companyPeoplePosition2 {
+  font-weight: normal;
+  margin-left : -1px;
+  margin-right: 13px;
+}
+
+.companyPlusImg {
+  background-size: 78%;
+  margin-right: 2.5%
+}
+
+.companyPeopleImg1 {
+  margin-left: 4%;
+  background-size: 94%;
+}
+
+
+.companyPeopleImg2 {
+  margin-left: 4%;
+  background-size: 94%;
+}
+
+
+.companyPeopleImg3 {
+  margin-left: 4%;
+  background-size: 94%;
+}
+
+
+.companyPeopleImg4 {
+  margin-left: 4%;
+  background-size: 94%;
+}
+
+
+.companyCloseImg {
+  position: absolute;
+  margin-top: -700px;
+  margin-left: 78%;
+  width : 26px;
+  height: 26px;
+  background: url('img/btn_close.png') no-repeat center;
+  background-size: cover;
+}
+
+}
+@media (max-width: 500px){
+  .companyPlusImg {
+  background-size: 78%;
+  margin-right: 2%
+}
+
+}
